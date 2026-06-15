@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Prints numbers with superstitious conditions
+# Prints numbers with superstitious rules
 
 i=1
 
