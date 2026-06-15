@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Prints numbers with superstitious rules
-
 i=1
 
 while [ "$i" -le 10 ]
