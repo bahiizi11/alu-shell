@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-for file in *
-do
+# This script displays directory content showing only the part after the first dash
+for file in *; do
     echo "${file#*-}"
 done
