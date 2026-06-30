@@ -1,3 +1,4 @@
 #!/bin/bash
-printf " 
-" "$WATER" "$STIR"
+# water and stir conversion
+
+echo "$WATER $STIR"
