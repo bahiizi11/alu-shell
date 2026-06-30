@@ -1,4 +1,4 @@
 #!/bin/bash
 # water and stir conversion
 
-echo "$WATER $STIR"
+echo "obase=5; ibase=5; $WATER + $STIR" | bc | tr '01234' 'bestchol'
