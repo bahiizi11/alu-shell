@@ -1,3 +1,3 @@
 #!/bin/bash
-# Adds WATER and STIR in base bestchol
-echo "$WATER $STIR"
+printf " 
+" "$WATER" "$STIR"
