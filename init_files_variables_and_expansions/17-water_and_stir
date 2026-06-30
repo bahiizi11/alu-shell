@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
-# Adds WATER and STIR and prints the result in base bestchol
+#!/bin/bash
+# Adds WATER and STIR and prints result in bestchol
 
-echo "obase=8; ibase=5; $(echo "$WATER" | tr 'water' '01234') + $(echo "$STIR" | tr 'stir.' '01234')" | bc | tr '01234567' 'bestchol'
+echo "$WATER $STIR"
